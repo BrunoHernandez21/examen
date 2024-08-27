@@ -7,6 +7,6 @@ import { appDataSource } from "./config/database";
     dotenv.config();
     await appDataSource.initialize();
     app.listen(process.env.PORT, () => {
-        console.log('Express server puerto %s: \x1b[32m%s\x1b[0m', process.env.port,'online');
+        console.log('Express server puerto %s: \x1b[32m%s\x1b[0m', process.env.PORT,'online');
     });
 })();

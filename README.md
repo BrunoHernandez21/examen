@@ -14,12 +14,14 @@ DB_DATABASE=examen
 
 # Development server
 
-to run the project in para dev you can run the command:
+to run the project in dev you can run the command:
 `npm run dev`
 
 # Docker production server whit DB
-To run the project using Docker please run the following command
-`docker build -t examen-api .`
+To build the project using Docker please run the following command
+`docker-compose build`
+to run
+`docker-compose up`
 
 # Docker production server without DB
 To run the project using Docker please run the following command
